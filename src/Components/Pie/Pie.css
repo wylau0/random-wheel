@@ -1,0 +1,20 @@
+.Pie {
+  position: absolute;
+  top: 0;
+  background: red;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  transition: transform 5s;
+  transition-timing-function: ease-in-out;
+}
+
+.pieceTitle {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  text-align: center;
+  height: 100%;
+  transform-origin: 0 50%;
+  font-size: 4vmax;
+}

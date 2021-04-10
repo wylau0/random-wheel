@@ -1,0 +1,29 @@
+.PieData {
+    width: 95%;
+    padding: 0;
+    margin: 0 auto;
+    height: 90%;
+    overflow: auto;
+}
+
+.PieDataAdd {
+    margin: 5% auto;
+    padding: 0 1%;
+    border-radius: 5px;
+    border: 1px solid #111111;
+    background-color: white;
+    color: #111111;
+    width: 7vmax;
+    height: 5vmax;
+    cursor: pointer;
+    font-size: 2vmax;
+}
+
+.PieDataAdd:disabled {
+    border: 1px solid #eeeeee;
+    color: #eeeeee;
+}
+
+@media (min-aspect-ratio: 1/1) {
+
+}

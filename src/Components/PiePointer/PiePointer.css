@@ -1,0 +1,27 @@
+.PiePointer {
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.triangle {
+    border-color: transparent transparent rgba(0, 0, 0, 0.5);
+    border-width: 0px 100px 100px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 3vmax 3vmax 3vmax;
+    border-color: transparent transparent rgba(0, 0, 0, 0.5) transparent;
+    line-height: 0px;
+    _border-color: #ffffff #ffffff rgba(0, 0, 0, 0.5) #ffffff;
+    _filter: progid:DXImageTransform.Microsoft.Chroma(color='#ffffff');
+    position: absolute;
+    left: 50%;
+    top: -1vmax;
+    transform: translate(-50%, -50%);
+}
